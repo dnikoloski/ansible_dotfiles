@@ -1,0 +1,7 @@
+---
+- name: Provisioning KDE environment
+  hosts: LAB
+  gather_facts: false 
+
+  roles:
+    - cattpuccin_dotfiles
